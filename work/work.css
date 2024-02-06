@@ -1,0 +1,244 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    text-shadow: none;
+    color: white;
+    padding-top: 2em;
+    font: oblique;
+    font-size: 2em;
+}
+header a{
+    text-align: right;
+    display: inline-block;
+    padding: 20px;
+    padding-top: 0px;
+    text-decoration: none;
+    color: white; 
+}
+header{
+    background-image: url(/images/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 10px;
+    margin: 0px;
+}
+header #logo{
+    margin-right:32em;
+    font-size: 1.5em;
+    font-family: monospace;
+}
+header nav li{
+    display: inline-block;
+}
+header nav li a{
+    padding: 1em 2em 0em 2em;
+    padding-top: 0em;
+}
+header nav li #contact a{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(253, 251, 251);
+    font-size: small;
+    text-align: center;
+    padding: 13px 20px;
+    border-radius: 50px;
+}
+header #contact a:hover{
+    background-color: blue;
+}
+/*header*/
+#intro{
+    margin: 0px;
+    min-height: 210vh;
+    background-color: white;
+}
+#intro h2{
+    font-family: monospace;
+    font-size: 2em;
+}
+#intro h3 a{
+    color: black;
+}
+#intro p{
+    font-family: initial;
+}
+.transform{
+    min-height: 70vh;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+.transform .transform_img img{
+    padding: 0px;
+    margin-bottom: 0px;
+    background-size: contain;
+    max-height: 100%;
+    min-height: 100%;
+    size: 1em;
+}
+.transform .transform_text{
+    padding: 10em;
+    margin-right: auto;
+}
+.standout{
+    min-height: 70vh;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+.standout .standout_img img{
+    padding: 0px;
+    margin-bottom: 0px;
+    background-size: contain;
+    size: 1em;
+    max-height: 100%;
+    min-height: 100%;
+    size: 1em;
+}
+.standout .standout_text{
+    padding: 10em;
+}
+.graphic_photo{  
+    padding: 0px;
+    margin: 0px;
+    min-height: 70vh;
+    background-color: white;
+    display: flex;
+}
+.graphic, .photography{
+    height: auto;
+    position: relative;
+    width: auto;
+}
+.graphic img, .photography{
+    width: auto;
+    display: block;
+}
+.graph{
+    color: teal;
+    position: absolute;
+    bottom: 5em;
+    text-align: center;
+}
+.photo{
+    color:dodgerblue;
+    position: absolute;
+    bottom: 5em;
+    text-align: center;
+}
+#intro .graphic_photo .graph p, .photo p{
+    font-family: initial;
+    padding-left: 10em;
+    padding-right: 5em;
+    padding-top: 0.8em;
+    padding-bottom: 2em;
+}
+#intro .graphic_photo .graph h3, #intro .graphic_photo .photo h3{
+    font-family: cursive;
+}
+.graphic .graph img{
+    padding: 0px;
+    margin-top: 0px;
+    background-size: contain;
+    max-height: 100%;
+    min-height: 100%;
+    size: 1em;
+}
+/**intro*/
+#testimonials{
+    margin: 0px;
+    background-color: white;
+}
+#testimonials .client{
+    text-align: center;
+    font-size: 1.4em;
+    padding: 3em 0em 2em;
+    color: grey;
+}
+#testimonials .client h3{
+    font-family:monospace;
+}
+#testimonials .client_testimonials{
+    display: flex;
+}
+#client1{
+    padding-left: 8em;
+    padding-right: 2em;
+}
+#client2{
+    padding-right: 1em;
+}
+#client3{
+    padding-right: 8em;
+    padding-left: 1em;
+}
+#client1 .client1_text, #client2 .client2_text, #client3 .client3_text {
+    padding: 3.5em 0em;
+    text-align: center;
+}
+#testimonials p{
+    font-family:initial;
+    color: grey;
+    font-size: 1em;
+    padding-bottom: 1.5em;
+}
+#testimonials h3{
+    font-family: monospace;
+    text-shadow: grey;
+    padding-bottom: .5em;
+}
+#testimonials img{
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    display: block;
+}
+#client3 .client3_image img{
+    background-position: right;
+}
+#aesthetic{
+    display: flex;
+}
+#aesthetic img{
+    width: 25%;
+}
+footer{
+    background-color: rgb(98, 194, 194);
+}
+footer a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: teal; 
+}
+footer #logo{
+    font-size: 1.5em;
+    font-family: monospace;
+    text-align: center;
+    padding: 2em 0em 0em 1em;
+}
+footer nav li{
+    display: inline-block;
+}
+footer #text{
+    text-align: center;
+    padding: 0em 1em 1em;
+}
+footer #icons{
+    text-align: center;   
+}
+footer #icons li{
+    display: inline-block;
+    padding: 1em 1em;
+    padding-bottom: 3em;
+}
